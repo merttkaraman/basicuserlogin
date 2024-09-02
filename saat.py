@@ -13,7 +13,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 from scipy.constants import minute
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\17769\Desktop\Python\UserLogin\giris\saat_assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"assets")
 
 
 def relative_to_assets(path: str) -> Path:
